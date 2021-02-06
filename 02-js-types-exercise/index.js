@@ -101,5 +101,3 @@ let missingInfo = undefined;
  *
  * variable {password} shouldn't be defined at all
  */
-
-let password = undefined;
