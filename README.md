@@ -23,6 +23,8 @@ git commit -m "YOUR COMMIT MESSAGE"
 git push
 ```
 
+###### ➡️ [Videos from lessons](https://www.youtube.com/playlist?list=PLsRodPBCrNtajAYZARMqd7yCWzBpE4ZjG) ⬅️
+
 ## Project repos
 
 [Module 1 - CLI APP](https://github.com/CodersInHoods/cli-project-london-300121)
@@ -53,40 +55,39 @@ git push
 9. Operators
 10. Comparisons and Conditionals Advanced
 
-### Week 2
+###### Week 2
 
-- [HTML/CSS part 1 examples](https://github.com/CodersInHoods/html-css-part-1-examples)
-- [HTML/CSS part 2 examples](https://github.com/CodersInHoods/html-css-part-2-examples)
-- [Flexbox examples](https://github.com/CodersInHoods/html-css-part-2-examples-flex)
+11. HTML&CSS Lesson 1 (examples)
+12. HTML&CSS Lesson 2 (examples)
+13. HTML&CSS Lesson 2 - flexbox (examples)
+14. Basic webpage
+15. Simple landing page
 
-11. Basic webpage
-12. Simple landing page
+###### Week 3
 
-### Week 3
+16. Create arrays
+17. Add to arrays
+18. Remove from arrays
+19. Creating objects
+20. Accessing values in objects
+21. Adding properties to objects
+22. Combining and modifying objects
+23. `for` loops
+24. `while` loops
+25. `for...in` loops
+26. `for...of` loops
+27. DIY
 
-13. Create arrays
-14. Add to arrays
-15. Remove from arrays
-16. Creating objects
-17. Accessing values in objects
-18. Adding properties to objects
-19. Combining and modifying objects
-20. `for` loops
-21. `while` loops
-22. `for...in` loops
-23. `for...of` loops
-24. DIY
+###### Week 4
 
-### Week 4
-
-25. Functions: default arguments
-26. Inline functions
-27. Arrow functions
-28. HOF `forEach` functions
-29. HOF `map` functions
-30. HOF `filter` functions
-31. JS arrays methods
-32. Libraries
-33. User profile
-34. User input
-35. Looping user flow
+28. Functions: default arguments
+29. Inline functions
+30. Arrow functions
+31. HOF `forEach` functions
+32. HOF `map` functions
+33. HOF `filter` functions
+34. JS arrays methods
+35. Libraries
+36. User profile
+37. User input
+38. Looping user flow
