@@ -5,6 +5,7 @@
  * 'panda' and 'giraffe' into it as strings
  */
 
+let wildAnimals = ["tiger", "rabbit", "panda", "giraffe"];
 
 /**
  * Exercise 2
@@ -13,12 +14,16 @@
  * into it as strings
  */
 
+let pets = ["cat", "dog", "hamster"];
+
 /**
  * Exercise 3
  *
  * Create a variable {animals}. It should include all {wildAnimals}
  * and all {pets}. Find the way to concatenate your arrays with JS
  */
+
+let animals = wildAnimals.concat(pets);
 
 /**
  * Exercise 4
