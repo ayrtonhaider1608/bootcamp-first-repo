@@ -4,12 +4,22 @@
  * Create an object {user} and add properties "firstName" and "lastName".
  */
 
+const user = {
+  firstName: "Ayrton",
+  lastName: "Haider",
+};
+
 /**
  * Exercise 2
  *
  * Create an object {userRead} and add properties "books" and "newspapers".
  * Both should be arrays with strings.
  */
+
+const userRead = {
+  books: ["Kitten"],
+  newspapers: ["The Guardian", "the Fast Company", "Wired", "Medium"],
+};
 
 /**
  * Exercise 3
@@ -27,12 +37,26 @@
  * }
  */
 
+const userUpdate = { ...user, ...userRead };
+console.log(userUpdate);
+
 /**
  * Exercise 4
  *
  * Create an object {userWatch} and add properties "tvShows" and "movies".
  * Both should be arrays with strings.
  */
+
+const userWatch = {
+  tvShows: [
+    "Dare Devil",
+    "La Casa de Papel",
+    "La Casa de las Flores",
+    "Mr.Robot",
+    "the Good Wife",
+  ],
+  movies: ["Iron Man", "Her", "The Last Samurai", "Black Panther"],
+};
 
 /**
  * Exercise 5
@@ -54,3 +78,9 @@
  *   }
  * }
  */
+
+const fullUserInfo = {
+  ...user,
+  ...userRead,
+  userWatch,
+};
