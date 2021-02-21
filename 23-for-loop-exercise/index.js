@@ -13,6 +13,12 @@ const visitors = ["Alex", "Mike", "Sam"]; // Add at least 5 names
 // ========================
 const numbers = [2, 123, 13, 1, 6, 84, 23, 12, 45]; // DON'T TOUCH THIS LINE :)
 
+function greetVisitors() {
+  for (let i = 0; i < visitors.length; i++) {
+    console.log(`Hi ${visitors[i]}, my name is ${myName}!`);
+  }
+}
+greetVisitors();
 /**
  * Exercise 2
  * Create a function {getElementIndex} that uses a for loop to find the index of a
@@ -22,6 +28,16 @@ const numbers = [2, 123, 13, 1, 6, 84, 23, 12, 45]; // DON'T TOUCH THIS LINE :)
 
 // ========================
 
+function getElementIndex(item) {
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] === item) {
+      return i;
+    }
+  }
+  return "Item not found";
+}
+console.log(getElementIndex(123));
+
 /**
  * Exercise 3
  * Create a function {total} that will return sum of all numbers
@@ -29,6 +45,16 @@ const numbers = [2, 123, 13, 1, 6, 84, 23, 12, 45]; // DON'T TOUCH THIS LINE :)
  */
 
 // ========================
+
+function total() {
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  return sum;
+}
+
+console.log(total());
 
 const numbersForIndexes = [6, 2, 16, 23, 84, 21, 9, 3]; // DON'T TOUCH THIS LINE :)
 
@@ -39,8 +65,24 @@ const numbersForIndexes = [6, 2, 16, 23, 84, 21, 9, 3]; // DON'T TOUCH THIS LINE
  */
 
 const forLowestNumber = [5, 234, 96, 34, -34, 0, 23]; // DON'T TOUCH THIS LINE :)
+
+function addIndex() {
+  num = [];
+  for (let i = 0; i < numbersForIndexes.length; i++) {
+    num.push(numbersForIndexes[i] + i);
+  }
+  return num;
+}
+
+console.log(addIndex());
+
 /**
  * Exercise 5
  *  create function {lowestNumber} which will return the lowest integer
  * from {forLowestNumber}
  */
+
+function lowestNumber() {
+  return Math.min(...forLowestNumber);
+}
+console.log(lowestNumber());
